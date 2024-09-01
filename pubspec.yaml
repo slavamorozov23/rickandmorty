@@ -1,0 +1,56 @@
+name: rick_and_morty_api_another_nothingburger
+description: "Проект пустышка, созданный в качестве демонстрации работы с flutter."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  analyzer: 6.4.1
+  auto_route: ^9.2.2
+  auto_route_generator: ^9.0.0
+  build_runner: ^2.4.12
+  cached_network_image: ^3.4.1
+  card_loading: ^0.3.2
+  chopper: ^8.0.1+1
+  chopper_generator: ^8.0.1
+  dartz: ^0.10.1
+  equatable: ^2.0.5
+  flex_list: ^1.0.0
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.6
+  flutter_launcher_icons: ^0.13.1
+  get_it: ^7.7.0
+  google_fonts: ^6.2.1
+  lazy_loading_list_view: ^0.0.7
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/icon.png"
+  min_sdk_android: 21
+  adaptive_icon_background: '#FFFFFF'
+  adaptive_icon_foreground: 'assets/icon/icon.png'
+  adaptive_icon_monochrome: 'assets/icon/icon.png'
+  web:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    background_color: "#FFFFFF"
+    theme_color: "#FF4F4F"
+  windows:
+    generate: true
+    image_path: "assets/icon/icon.png"
+    icon_size: 48
+  macos:
+    generate: true
+    image_path: "assets/icon/icon.png"
