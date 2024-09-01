@@ -1,0 +1,4 @@
+#Sun Sep 01 19:22:50 YEKT 2024
+base.0=C\:\\FlutterProjects\\dump\\rick_and_morty_api_another_nothingburger\\build\\app\\intermediates\\dex\\release\\minifyReleaseWithR8\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
